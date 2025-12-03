@@ -3,7 +3,7 @@ import "./Services.css";
 
 const Services = () => {
   return (
-    <div className="services-section mt-5 mb-5">
+    <div className="services-section mt-5  mb-5">
 
       <h3 className="services-label">SERVICES</h3>
 

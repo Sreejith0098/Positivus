@@ -3,7 +3,7 @@ import "./Brands.css";
 
 const Brands = () => {
   return (
-    <div className="brands-container">
+    <div style={{marginBottom:'60px',marginTop:"80px"}} className="brands-container ">
       <h3>Amazon</h3>
       <h3>dribble</h3>
       <h3>HubSpot</h3>
