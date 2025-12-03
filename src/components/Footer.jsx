@@ -5,7 +5,7 @@ import Form from "react-bootstrap/Form";
 
 const Footer = () => {
   return (
-    <div className="footer-bg text-white pt-5 pb-4">
+    <div className="footer-bg text-white mt-5 pt-5 pb-4">
       <div className="container">
 
         <div className="row align-items-center mb-4">
