@@ -1,0 +1,28 @@
+
+.links a,
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  padding-right: 60px;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+
+.menu-btn {
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+  header {
+    padding: 1rem 0;
+  }
+}

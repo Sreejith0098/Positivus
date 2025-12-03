@@ -1,0 +1,30 @@
+.services-section {
+    margin-top: 90px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;      
+    gap: 20px;
+  }
+  
+  .services-label {
+    background-color: #b9ff66;
+    padding: 6px 10px;
+    margin: 0;
+  }
+  
+  .services-text {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  @media (max-width: 600px) {
+    .services-section {
+      flex-direction: column;   
+    }
+  
+    .services-text {
+      font-size: 0.95rem;
+    }
+  }
+  
