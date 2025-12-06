@@ -7,7 +7,6 @@ const Footer = () => {
   return (
     <div className="footer-bg text-white mt-5 pt-5 pb-4">
       <div className="container">
-
         <div className="row align-items-center mb-4">
           <div className="col-md-4 mb-3 mb-md-0">
             <h1 className="fw-bold">Positivus</h1>
@@ -49,15 +48,17 @@ const Footer = () => {
               />
             </FloatingLabel>
 
-            <button className="btn subscribe-btn">
-              Subscribe
-            </button>
+            <button className="btn subscribe-btn">Subscribe</button>
           </div>
         </div>
-
       </div>
       <hr />
-      <p className="text-center">&copy;2023 Positivus all rights reserved <a style={{color:"white"}} href="">Privacy policy</a></p>
+      <p className="text-center">
+        &copy;2023 Positivus all rights reserved{" "}
+        <a style={{ color: "white" }} href="">
+          Privacy policy
+        </a>
+      </p>
     </div>
   );
 };
