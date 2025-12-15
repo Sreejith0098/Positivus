@@ -18,7 +18,7 @@ const Home = () => {
 
     <div style={{ marginLeft: "60px", marginRight: "70px" }}>
       <Header />
-      <div className="d-flex justify-content-between align-items-center mt-5">
+      <div  className="d-flex justify-content-between align-items-center mt-5">
   <div>
     <h1 style={{ fontSize: "80px", lineHeight: "1.1" }}>
       Navigating the <br /> digital landscape <br />
